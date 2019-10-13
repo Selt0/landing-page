@@ -1,0 +1,159 @@
+/* General */
+html,
+body {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+.button {
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1.5em;
+}
+.container {
+  margin-right: 5em;
+  margin-left: 5em;
+}
+.wrapper {
+  width: 100%;
+  text-align: center; 
+}
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+}
+
+.brand {
+  font-size: 2.6em;
+  color: #0d1b2a;
+  margin-left: 30px;
+}
+
+.nav-button {
+  background-color: #415a77;
+  color: #e0e1dd;
+  margin-right: 30px;
+}
+
+/* HERO */
+.hero {
+  height: 85vh;
+  background-image: url(/images/hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero-content {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text {
+  font-size: 5em;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #0d1b2a;
+}
+
+.email-field {
+  width: 25vw;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 1.5em;
+  border-radius: 25px;
+  border: 1px solid #e0e1dd;
+}
+.email-field:hover,
+.email-field:active,
+.email-field:focus {
+  box-shadow: 1px 1px 5px  rgb(153, 153, 153);
+}
+
+.hero-button {
+  background-color: #1b263b;
+  color: #e0e1dd;
+}
+
+/* FEATURES */
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  height: 45vh;
+  font-size: 1.6em;
+}
+
+.box-info {
+  text-align: center;
+  padding: 5em;
+  flex: 1;
+}
+.box-info i {
+  font-size: 3em;
+  color: #415a77;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.box-info h3 {
+  font-size: 2em;
+  margin: 0;
+}
+.box-info p {
+  font-size: 1.3em;
+}
+
+/* GRID */
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 2em;
+  
+}
+
+.feature-info {
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  padding: 6em;
+}
+.feature-info h2 {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 10px;
+}
+
+.image-feature img{
+  max-width: 100%;
+  height: 100%;
+}
+
+/* TESTIMONIALS */
+.testimonial-header {
+  font-size: 4em;
+  display: block;
+  margin: 0 auto ;
+  color: #0d1b2a;
+}
+.testimonial {
+  margin: 0 auto;
+  padding: 7em;
+  background-color: #e9e9e7;
+}
+
+.testimonial-img {
+  max-width: 12em;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px 0 #adb5bd;
+}
+
+/* FOOTER HERO */
+.footer-hero {
+  height: 400px;
+  padding-top: 7em;
+}
