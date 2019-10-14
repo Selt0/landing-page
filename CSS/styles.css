@@ -50,7 +50,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8vh;
 }
 
 .brand {
@@ -62,7 +61,7 @@ nav {
 .nav-button {
   background-color: #415a77;
   color: #e0e1dd;
-  margin-right: 30px;
+  margin: 1em;
 }
 
 /* HERO */
@@ -117,7 +116,6 @@ nav {
 .box-info {
   text-align: center;
   padding: 5em;
-  margin: 1em;
   flex: 1;
 }
 .box-info-image  {
@@ -191,7 +189,7 @@ nav {
 
 /* FOOTER HERO */
 .footer-hero {
-  height: 30vh;
+  height: 200px;
   padding: 8em;
 }
 
@@ -222,4 +220,113 @@ nav {
 }
 .social-links i:hover {
   color: #3479c2;
+}
+
+/* MEDIA */
+@media (max-width: 1060px ){
+  .box-info {
+    padding: 3em;
+  }
+}
+
+@media (max-width: 995px){
+  .box-info {
+    padding: 2em;
+  }
+  .grid-col-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .order-3 {
+    order: 3;
+  }
+  .order-4 {
+    order: 4;
+  }
+  .order-5 {
+    order: 5;
+  }
+  .order-6 {
+    order: 6;
+  }
+  .text-align-right {
+    text-align: left;
+  }
+  .footer-links {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 865px) {
+  .image-row {
+    flex-direction: column;
+  }
+  .social-links i {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 765px) {
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .email-field {
+    width: auto;
+  }
+  .button {
+    margin-top: 1em;
+    margin-left: 0;
+  }
+  .footer-hero-content .sign-up {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 665px) {
+  .hero-text {
+    font-size: 3.5em;
+  }
+  .brand {
+    font-size: 2em;
+  }
+  .box-info h3 {
+    font-size: 1.5em;
+  }
+  .box-info p {
+    font-size: 1em;
+  }
+  .feature-info h2 {
+    font-size: 2em;
+  }
+  .grid-col-2 {
+    font-size: 1.6em;
+  }
+  .testimonial-header {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-links a {
+    padding-left: .8em;
+  }
+}
+
+@media (max-width: 565px) {
+  .footer-hero-content h3 {
+    margin-top: 0;
+  }
 }
