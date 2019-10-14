@@ -42,7 +42,7 @@ nav {
 /* HERO */
 .hero {
   height: 85vh;
-  background-image: url(/images/hero-image.jpg);
+  background-image: url(images/hero-image.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -59,7 +59,7 @@ nav {
 .hero-text {
   font-size: 5em;
   color: #FFF;
-  text-shadow: 2px 2px 4px #0d1b2a;
+  text-shadow: 3px 2px 4px #0d1b2a;
 }
 
 .email-field {
@@ -156,4 +156,9 @@ nav {
 .footer-hero {
   height: 400px;
   padding-top: 7em;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
 }
